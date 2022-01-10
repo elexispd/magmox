@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Purchase </title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="magmox is a leading cryptocurrency">
+	<meta name="keywords" content="magmox, cryptocurrency, cryto, coins, digitalcoin, digital, signup">
+	<meta name="author" content="magmox">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+
+</head>
+<body>
+	<div class="body-wrapper">
+        <nav>
+            <div class="header-wrapper">
+                <div class="d-flex justify-content-between nav pl-4">
+                    <div class="bar">
+                        <i class="fa fa-bars text-light" id="menu-bar"></i>
+                    </div>
+                    <div class="logo mx-auto">
+                        <img src="img/logo.png" class="img-fluid" width="25" height="25">
+                        <span class="text-light"> MAGMOX</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div id="layout-side-nav">
+            <div class="layout-content p-3">
+                <div class="back">
+                    <i class="fa fa-arrow-left"></i> <span>Menu</span>
+                </div>
+
+                <div class="log">
+                    <a href="login.html" class="btn login">LOGIN</a>
+                    <div class="dropdown list">
+                      <button class="btn signup dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        SIGN UP
+                      </button>
+                      <ul class="dropdown-menu mt-2" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="signup.html">As an Investor</a></li>
+                        <li><a class="dropdown-item" href="signup.html">As a Developer</a></li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+            
+
+
+            <nav class="nav" id="menu-sidebar" >
+                <div class="sidenav w-100">
+                    <div class="menu-heading">
+                        <ul class="menu-list">
+                            <li><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a>
+                            </li>
+                            <li id="account"><a href="#"><i class="fa fa-user" ></i><span>Account</span><i class="fa fa-caret-down" id="caret"></i></a>
+                            </li>
+                            <div class="sub">
+                                <div>
+                                    <li><a href="profile.html"><i class="fa fa-user"></i><span>Profile</span></a></li>
+                                    <li><a href="wallet.html"><i class="fa fa-wallet"></i><span>Wallet</span></a></li>
+                                </div>
+
+                                <div>
+                                    <li><a href="profile.html"><i class="fa fa-user"></i><span>Profile</span></a></li>
+                                    <li><a href="project.html"><i class="fa fa-folder-plus"></i><span>Add Project</span></a></li>
+                                </div>
+                                
+
+                            </div>
+                            
+                            <li><a href="ico.html"><i class="fa fa-universal-access"></i><span>MGX ICO</span></a></li>
+                            <li><a href="buzzer.html"><i class="fa fa-podcast"></i><span>MagMox Buzzer</span></a></li>
+                            <li class="menu-about"><a href="index.html#about"><i class="fa fa-exclamation-circle"></i><span>About Us</span></a></li>
+                            <li><a href="#"><i class="fa fa-sign-out-alt"></i><span>Logout</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+        <div class="container mb-5" id="package">
+            <div class="container">
+                <h2 class="bold mt-5 mb-4">Professional Affiliate or Influencer?</h2>
+
+                <span class="mt-5">
+                    Become our influener and promote Merchant Token Launchpad and get MTO. Get access to live tracking features. Promote Merchant Token via:
+                </span>
+                <div class="container">
+                    <ul class="container">
+                        <li>YouTube video</li>
+                        <li>Telegram post</li>
+                        <li>Social Media post</li>
+                        <li>Other marketing methods</li>
+                    </ul>
+
+                    <a href="#" class="btn  mx-auto">Register as affiliate</a>
+                 </div>
+            </div>
+        	
+        </div>
+		
+      <footer class="">
+            <div class="footer-wrapper pt-3">
+                <div class="container quick">
+                    <h5>QUICK LINKS</h5>
+                    <a href="#" class="text-muted">Privacy Policy</a>
+                    <a href="#" class="text-muted">Terms and Conditions</a>
+                    <a href="#" class="text-muted">Magmox Info</a>
+                    <a href="#" class="text-muted">Lorem lorem lorem</a>
+                </div>
+
+                <div class="contact text-center  mt-4">
+                    <span class="text-muted">Contact us @ magmox@magmox.com</span>
+                    <span class="text-muted">Follow us <i class="fab fa-facebook"></i><i class="fa fa-paper-plane"></i></span>  
+                </div>
+                <hr>
+
+                <div class="copyright pb-5 text-center">
+                    <span class="text-center text-muted">Copyright <span id="year" class="text-muted"></span> All Right Reserved</span>
+                </div>
+
+
+            </div>
+
+        </footer>
+
+	</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/navbar.js"></script>
+<script type="text/javascript">
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
+</body>
+</html>
